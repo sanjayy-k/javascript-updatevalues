@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .d{
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 2rem;
+        }
+        .s{
+            position: relative;
+            left: 100px;
+            top: 130px;
+        }
+        .v{
+            position: relative;
+            bottom: 70px;
+            left: 280px;
+        }
+        .l{
+            font-size: 2rem;
+            font-style: italic;
+            font-family:'Times New Roman', Times, serif;
+            border:2px solid black;
+        }
+        .d1{
+            position: relative;
+            top: 200px;
+           right: 440px;
+           background-color: aquamarine;
+        }
+        .d2{
+            position: relative;
+            top: 200px;
+            right: 300px;
+            background-color:cornflowerblue
+        }
+        #i1{
+            position: relative;
+            top: 110px;
+         
+        }
+        #i2{
+            position: relative;
+            top: 140px;
+       right: 172px;
+        }
+        #i3{
+            position: relative;
+            top: 170px;
+            right: 344px;
+        }
+        .w{
+            position: relative;
+            top: 250px;
+           left: 90px;
+        }
+        #p{
+            position: relative;
+            top: 40px;
+        }
+        #p1{
+            position: relative;
+            top: 40px;
+        }
+        #p2{
+            position: relative;
+            top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <script src="first1.js"></script>
+    <div class="s">
+    <table>
+        <tr colspan="3" id="d">
+            <th class="d">categories</th>
+            <th class="d">duration</th>
+            <th class="d">sub-categories</th>
+        </tr>
+
+        <tr rowspan="3">
+        <td >Analyst</td>
+        <td>4:00</td>
+        <td>work</td>
+    </tr>
+
+    <tr rowspan="3">
+        <td >data scientist</td>
+        <td>5:00</td>
+        <td>Personnel</td>
+    </tr>
+       
+    <tr rowspan="3">
+        <td >Admin</td>
+        <td>6:00</td>
+        <td>work</td>
+    </tr>
+       
+    <tr rowspan="3">
+        <td >Testing</td>
+        <td>3:30</td>
+        <td>work</td>
+    </tr>
+       
+       
+    <tr rowspan="3">
+        <td >Analyst</td>
+        <td>6:00</td>
+        <td>personnel</td>
+    </tr>
+      
+    </table>
+</div>
+
+<div class="v">
+   <select class="l"> 
+    <option>Work</option>
+    <option>Perosnnel</option>
+   </select>
+</div>
+
+<input type="text" id="i1" placeholder="categories">
+<input type="text" id="i2" placeholder="duration">
+<input type="text" id="i3" placeholder="sub-categories">
+<button class="d1" onclick="my()">UPDATE</button>
+<div class="w">
+
+ <table>
+        <tr colspan="3" id="d">
+            <th class="d">categories</th>
+            <th class="d">duration</th>
+            <th class="d">sub-categories</th>
+        </tr>
+
+        <tr rowspan="3">
+        <td >Analyst</td>
+        <td>4:00</td>
+        <td>work</td>
+    </tr>
+
+    <tr rowspan="3">
+        <td >data scientist</td>
+        <td>5:00</td>
+        <td>Personnel</td>
+    </tr>
+       
+    <tr rowspan="3">
+        <td >Admin</td>
+        <td>6:00</td>
+        <td>work</td>
+    </tr>
+       
+    <tr rowspan="3">
+        <td >Testing</td>
+        <td>3:30</td>
+        <td>work</td>
+    </tr>
+       
+       
+    <tr rowspan="3">
+        <td >Analyst</td>
+        <td>6:00</td>
+        <td>personnel</td>
+    </tr>
+      
+    </table> 
+ </div>
+
+ <p id="p"></p>
+ <p id="p1"></p>
+ <p id="p2"></p>
+
+</body>
+</html>
